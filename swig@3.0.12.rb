@@ -18,8 +18,6 @@ class SwigAT3012 < Formula
     sha256 x86_64_linux:   "8ba7debca7e99a4b12be8eef984ef4bf0826ad37baf171cd2ce36e55f23ee3da"
   end
 
-  keg_only :versioned_formula
-
   depends_on "pcre"
 
   uses_from_macos "ruby" => :test
