@@ -29,6 +29,7 @@ class SwigAT3012 < Formula
                           "--prefix=#{prefix}"
     system "make"
     system "make", "install"
+    bin.install libexec/"bin/swig"
   end
 
   test do
