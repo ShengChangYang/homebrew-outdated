@@ -13,7 +13,7 @@ class SwigAT3012 < Formula
                           "--prefix=#{prefix}"
     system "make"
     system "make", "install"
-    bin.install bin/"swig"
+    bin.install "swig"
   end
 
   test do
