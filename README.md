@@ -6,8 +6,8 @@ Holds the old libraries of Homebrew.
 
 ```
 brew tap ShengChangYang/outdated
-brew install swig@3.0.12
-brew install cocoapods@1.14.3
+brew install --build-from-source swig@3.0.12
+brew install --build-from-source cocoapods@1.14.3
 ```
 
 ## Uninstalling
