@@ -6,7 +6,7 @@ Holds the old libraries of Homebrew.
 
 ```
 brew tap ShengChangYang/outdated
-brew install --build-from-source ShengChangYang/outdated/swig@3.0.12
+brew install --build-from-source ShengChangYang/outdated/swig@3.0.12 ; brew link ShengChangYang/outdated/swig@3.0.12
 brew install --build-from-source ShengChangYang/outdated/cocoapods@1.14.3
 ```
 
