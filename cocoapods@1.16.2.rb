@@ -7,7 +7,7 @@ class CocoapodsAT1162 < Formula
   revision 1
 
   depends_on "pkgconf" => :build
-  depends_on "ruby"
+  depends_on "ShengChangYang/outdated/ruby@3.4.3"
   uses_from_macos "libffi", since: :catalina
 
   conflicts_with cask: "cocoapods", because: "both install `pod` binaries"
