@@ -15,7 +15,7 @@ class CocoapodsAT1162 < Formula
   def install
     ENV["GEM_HOME"] = libexec
     system "gem", "build", "cocoapods.gemspec"
-    system "gem", "install", "cocoapods-#{version}.gem", "--user-install"
+    system "gem", "install", "cocoapods-#{version}.gem"
     # Other executables don't work currently.
     bin.install libexec/"bin/pod", libexec/"bin/xcodeproj"
     bin.env_script_all_files(libexec/"bin", GEM_HOME: ENV["GEM_HOME"])
